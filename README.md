@@ -1,1 +1,1 @@
-Branch này có thể thao tác tay với vr bằng select value và activate value
+Branch này có thể tương tác cơ bản
