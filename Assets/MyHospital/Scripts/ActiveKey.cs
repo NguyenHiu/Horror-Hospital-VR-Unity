@@ -30,7 +30,11 @@ public class ActiveKey : MonoBehaviour
     public void MyActiveKey()
     {
         if (DoorObject == null)
-            return;
+        {
+		Debug.Log("DoorObject is null");
+		 return;
+	}
+	Debug.Log("DoorObject is not null");
         DoorObject.GetComponent<Door>().OpenDoor();
     }
 }
